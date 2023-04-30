@@ -17,10 +17,4 @@ function add() {
   }
 }
 
-function clearResult() {
-  if (input.value === "") {
-    resultado.innerHTML = "";
-  }
-}
-
 input.addEventListener("input", add);
